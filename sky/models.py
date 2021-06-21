@@ -7,3 +7,4 @@ class Sky(models.Model):
     name = models.CharField(max_length=256)
     discription = models.TextField()
     architect = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
+
